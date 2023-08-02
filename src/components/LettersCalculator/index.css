@@ -1,0 +1,59 @@
+/* Write your code here. */
+.bgcontainer {
+  background-image: linear-gradient(to left, #93f9b9, #1d976c);
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px;
+}
+
+.mycontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lettercountcontainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputSize {
+  height: 32px;
+  width: 200px;
+  background-color: transparent;
+  border-radius: 4px;
+  border-width: 1px;
+  border-color: white;
+  margin-bottom: 18px;
+}
+
+.heading {
+  color: white;
+  font-family: 'Roboto';
+}
+
+.labelname {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 13px;
+}
+
+.imagesize {
+  height: 200px;
+  width: 200px;
+}
+
+.button {
+  background-color: white;
+  border-radius: 4px;
+  border-width: 0px;
+  padding: 14px;
+  height: auto;
+  width: 150px;
+  font-family: 'Roboto';
+  color: #219a6f;
+}
